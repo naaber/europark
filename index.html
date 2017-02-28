@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js?ver=4.3.8'></script>
+	<script type='text/javascript' src='calc.js'></script>
+	<script type='text/javascript' src='datepicker.min.js'></script>
+	<link rel='stylesheet' href='http://tasku.ee/wp-content/themes/tasku/style.css?ver=2014-10-02_2' type='text/css' media='all'>
+	<link rel='stylesheet' href='datepicker.min.css' type='text/css'>
+	<link rel='stylesheet' href='style.css' type='text/css'>
+	<style>
+		.nav {
+			width: 100%;
+			position: relative;
+			z-index: 9999;
+			height: 55px;
+			border: 0px solid;
+			border-radius: 10px;
+			margin-bottom: 1px;
+			background-color: #00a2b7 !important;
+		}
+		.content.main.page {
+			margin-top: 0px;
+		}
+		a {
+			pointer-events: none;
+		}
+	</style>
+	<title>Martti Naaber</title>
+</head>
+<body>
+	<div class="container">
+		<div class="content main page">
+			<div class="background-white">
+				<div class="nav">
+					<ul id="menu-main-menu" class="menu">
+						<li id="menu-item-8155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8155"><a href="/">Avaleht</a></li>
+						<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://tasku.ee/kaupluste-nimekiri/">Kauplused</a></li>
+						<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://tasku.ee/keskuse-plaan/">Keskuse plaan</a></li>
+						<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="http://tasku.ee/kinkekaart/">Tasku kinkekaart</a></li>
+						<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://tasku.ee/parkimine/">Parkimine</a></li>
+						<li id="menu-item-4066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4066"><a href="http://tasku.ee/stiilinoustamine/">Stiilinõustamine</a></li>
+					</ul>
+				</div>
+				<div class="bottom-content">
+					<div class="content-left">
+						<div class="side-emailbox">
+							<form action="http://smaily.com/c/tasku/" class="side-emailform">
+								<input type="submit" class="submitbutton" value="Liitu uudiskirjaga" disabled/>
+							</form>
+						</div>
+					</div>
+					<div class="content-right content-text">
+						<h1 class="bustimes-heading">Parkimine</h1>
+						<p><span style="color: #0094b3;"><strong>PARKIMISMAJA LAHTIOLEKUAJAD</strong></span><br /> • 2.-4. korruse parkla avatud 24 h<br /> • keldrikorruse parkla avatud 07:00-23:00</p>
+						<p><span style="color: #0094b3;"><strong>SISSE- JA VÄLJASÕIDUD</strong></span><br /> • korrusparkla sissesõidud Riia-Turu ristmikult ja Soola tänavalt Dorpati hotelli eest. Väljasõit Soola ja Vana-Turu tänavatele<br /> • keldrikorruse parkla sisse-
+							ja väljasõit Soola tänavalt</p>
+						<p><span style="color: #0094b3;"><strong>TASU</strong></span><br /> • esimene tund parkimist tasuta, iga järgmine alustatud tund 1 €<br /> • 24 h pilet 5 €<br /> • ööpäevaringne kuukaart 80 €/kuu (saab alustada ka kuu keskelt), tellimine <a title="Europark"
+							    href="http://www.europark.ee" target="_blank">www.europark.ee</a> ja tasumine arve alusel<br /> • kaotatud pileti tasu 16 €</p>
+						<p><span style="color: #0094b3;"><strong>HINNAKALKULAATOR</strong></span><br /> 
+						<div class="calc-container">
+							<div class="calc-item">
+								<input type="text" placeholder="Parkimise algusaeg" class="datepicker-here" id="start" data-timepicker="true" data-position="left top">
+								<input type="text" placeholder="Parkimise lõppaeg" class="datepicker-here" id="end" data-timepicker="true" data-position="left top">
+							</div>
+							<div class="calc-item" style="margin: 10px 10px 10px 2px">
+								<textarea placeholder="€" id ="message" readonly></textarea>
+							</div>
+						</div>
+						<div id="error"></div>
+						<br>
+						<p><span style="color: #0094b3;"><strong>MAKSMINE</strong></span><br /> • makseautomaadid asuvad igal parklakorrusel (tasumine sularahas)<br /> • kaardimaksed 2., 3. ja 0-korruse makseautomaatides</p>
+						<p>Parkimist korraldab <strong>OÜ EuroPark Estonia</strong>. Lisainformatsiooni parkimistingimuste ja parkimiskorralduse kohta saab EuroParki koduleheküljelt <a title="Europark" href="http://www.europark.ee" target="_blank">www.europark.ee</a>.<br
+							/> Üldnumber on <strong>+372 661 0223</strong> &#8211; töötab 24 h.</p>
+						<p>&nbsp;</p>
+						<p>
+							<a href="http://tasku.ee/wp-content/uploads/2014/07/parkla_sissesoit.png"><img class="alignnone size-full wp-image-12735" src="http://tasku.ee/wp-content/uploads/2014/07/parkla_sissesoit.png" alt="parkla_sissesoit" width="665" height="433" /></a>
+						</p>
+					</div>
+					<div class="bottom-menu alumine-menu">
+						<ul id="menu-footer-menu" class="menu">
+							<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-60"><a href="http://tasku.ee/keskusest/">Taskust</a></li>
+							<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="http://tasku.ee/kontakt/">Kontakt</a></li>
+							<li id="menu-item-14380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14380"><a href="http://tasku.ee/kauplused/konverentsikeskus/">Konverentsikeskus</a></li>
+							<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-59"><a href="http://tasku.ee/burood/">Bürood</a></li>
+							<li id="menu-item-5208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5208"><a href="http://tasku.ee/tartu-teerajajate-allee/">Tartu Teerajajate Allee</a></li>
+							<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="http://tasku.ee/vaateplatvorm/">Vaateplatvorm</a></li>
+							<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="http://tasku.ee/pildid/">Galeriid</a></li>
+							<li id="menu-item-4067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4067"><a href="http://tasku.ee/bussiajad/">Bussiajad</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
